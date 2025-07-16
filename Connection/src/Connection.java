@@ -13,7 +13,7 @@ public class Connection {
             con = DriverManager.getConnection("jdbc:mysql://localhost/sampledb", "root", "gayathri");
 
             if (con != null) {
-                System.out.println("✅ Connected to the database!");
+                System.out.println("Connected to the database!");
 
                 while (true) {
                     System.out.println("Welcome, please choose your operation:");
