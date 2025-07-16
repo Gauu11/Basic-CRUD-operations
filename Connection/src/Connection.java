@@ -9,7 +9,7 @@ public class Connection {
         java.sql.Connection con = null;
 
         try {
-            // Connect to MySQL DB
+            // Connect to MySQL DB, connect your JAR file
             con = DriverManager.getConnection("jdbc:mysql://localhost/sampledb", "root", "yourpassword");
 
             if (con != null) {
