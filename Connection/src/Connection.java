@@ -10,7 +10,7 @@ public class Connection {
 
         try {
             // Connect to MySQL DB
-            con = DriverManager.getConnection("jdbc:mysql://localhost/sampledb", "root", "gayathri");
+            con = DriverManager.getConnection("jdbc:mysql://localhost/sampledb", "root", "yourpassword");
 
             if (con != null) {
                 System.out.println("Connected to the database!");
